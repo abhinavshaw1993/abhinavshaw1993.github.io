@@ -59,11 +59,13 @@ html, body {
   list-style: none;
   padding-left: 0px;
   font-size: 18px;
+  height: auto;
+  width: auto;
 }
-.list-div {
-  justify-content: center;
+.table {
+  display: table;
+  margin: 0 auto;
 }
-
 
 .social-links li {
   display: inline-block;
@@ -75,8 +77,12 @@ html, body {
   padding: 4px;
 }
 
-.social-links a:hover {
+/* .social-links a:hover {
   background-color: rgba(0, 0, 0, 0.1);
+} */
+
+.bottom {
+  height: 50%
 }
 
 body {
